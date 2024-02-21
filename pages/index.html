@@ -3,7 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema de Matrículas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fcf5e5; /* Color crema */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #ccc; /* Gris claro */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            max-width: 600px; /* Ajusta según sea necesario */
+            width: 100%;
+            justify-content: space-between; /* Espaciado uniforme entre elementos */
+        }
+
+        nav li {
+            font-size: 1.2em; /* Ajusta el tamaño de la fuente según sea necesario */
+            color: #666; /* Color de letra más claro */
+            transition: color 0.3s ease; /* Efecto de transición para el cambio de color */
+        }
+
+        nav li:hover {
+            color: #007bff; /* Cambia el color al pasar el ratón */
+        }
+
+        .search-box {
+            margin-left: auto; /* Mueve el cuadro de búsqueda y los botones a la esquina derecha */
+            display: flex;
+            align-items: center;
+        }
+
+        .user-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-buttons button {
+            margin-left: 10px;
+        }
+
+        section {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
